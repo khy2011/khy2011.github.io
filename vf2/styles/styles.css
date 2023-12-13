@@ -1,0 +1,313 @@
+@font-face{
+	font-family: 'Great Vibes', cursive;
+	src: url('../fonts/Great_Vibes/.GreatVibes-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Ephesis', cursive;
+	src: url('../fonts/Ephesis/Ephesis-Regular.ttf');
+}
+
+body{
+	background-image: url(../images/greathall.jpg);
+	background-size: 100%;
+}
+
+h1{
+	font-family: 'Great Vibes', cursive;
+	font-size: 7em;
+	color: #FFD700;
+	text-shadow: 5px 5px 5px black;
+	margin-top: 0.3em;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Ephesis', cursive;
+	font-size: 3em;
+	color: whitesmoke;
+	text-shadow: 1px 3px 5px sandybrown;
+	text-align: center;
+	position: relative;
+	margin-top: -5%;
+}
+
+img{
+	width: 90%;
+	height: auto;
+	border: 5px dashed #FFD700;
+}
+
+main{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.homenav{
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	font-family:'Ephesis', cursive;
+	background: #7B5226;
+	width: 12em;
+}
+
+.homenav a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Ephesis', cursive;
+  font-size: 2em;
+}
+
+.homenav a:hover {
+  color: #F6BE00;
+}
+
+.homenav a:active {
+  color: lightgoldenrodyellow;
+}
+
+#gryfh1{
+	color: #800020;
+	text-shadow: 1px 3px 5px #FFD700;
+}
+
+#gryfh2{
+	color: #800020;
+	text-shadow: 1px 3px 5px #FFD700;
+}
+
+#navgryf{
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	font-family:'Ephesis', cursive;
+	background: #7B5226;
+	width: 12em;
+}
+
+#navgryf a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Ephesis', cursive;
+  font-size: 2em;
+}
+
+#navgryf a:hover {
+  color: #F6BE00;
+}
+
+#navgryf a:active {
+  color: lightgoldenrodyellow;
+}
+
+#ravenh1{
+	color: #000080;
+	text-shadow: 1px 3px 5px #C0C0C0;
+}
+
+#ravenh2{
+	color: #000080;
+	text-shadow: 1px 3px 5px #C0C0C0;
+}
+
+#navraven{
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	font-family:'Ephesis', cursive;
+	background: #7B5226;
+	width: 12em;
+}
+
+#navraven a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Ephesis', cursive;
+  font-size: 2em;
+}
+
+#navraven a:hover {
+  color: #F6BE00;
+}
+
+#navraven a:active {
+  color: lightgoldenrodyellow;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+  text-align: center;
+}
+
+#one{
+	grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#two{
+	font-size: 35px;
+	grid-column-start: 3;
+  grid-column-end: 4;
+  color: white;
+  font-family: 'Ephesis', cursive;
+}
+
+#two a {
+	color: whitesmoke;
+}
+
+#two a:hover {
+	color: lightgoldenrodyellow;
+}
+
+#two a:visited {
+	color: lightgoldenrodyellow;
+}
+
+#navgryf{
+font-size: 1em;
+width: 97%;
+}
+
+.gryfwrapper{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+  text-align: center;
+}
+
+#gryfvid{
+	margin-top: 0%;
+}
+
+#gryfintro{
+font-size: 25px;
+	grid-column-start: 2;
+  grid-column-end: 4;
+  color: white;
+  font-family: 'Ephesis', cursive;
+}
+
+#navraven{
+font-size: 1em;
+width: 97%;
+}
+
+.ravenwrapper{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+  text-align: center;
+}
+
+#ravenvid{
+	font-size: 17px;
+	grid-column-start: 2;
+  grid-column-end: 4;
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+
+#navhuffle{
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	font-family:'Ephesis', cursive;
+	background: #7B5226;
+	width: 12em;
+}
+
+#navhuffle{
+font-size: 1em;
+width: 97%;
+}
+
+#navhuffle a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Ephesis', cursive;
+  font-size: 2em;
+}
+
+#navhuffle a:hover {
+  color: #F6BE00;
+}
+
+#navhuffle a:active {
+  color: lightgoldenrodyellow;
+}
+
+.hufflewrapper{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+  text-align: center;
+}
+
+#hufflevid{
+	margin-top: 0%;
+}
+
+#navsly{
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	font-family:'Ephesis', cursive;
+	background: #7B5226;
+	width: 12em;
+}
+
+#navsly{
+font-size: 1em;
+width: 97%;
+}
+
+#navsly a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Ephesis', cursive;
+  font-size: 2em;
+}
+
+#navsly a:hover {
+  color: #F6BE00;
+}
+
+#navsly a:active {
+  color: lightgoldenrodyellow;
+}
+
+.slywrapper{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+  text-align: center;
+}
+
+#slyvid{
+	margin-top: 0%;
+}
+
+#slyh1{
+	color: #023020;
+	text-shadow: 1px 3px 5px #C0C0C0;
+}
+
+#slyh2{
+	color: #023020;
+	text-shadow: 1px 3px 5px #C0C0C0;
+}
+
